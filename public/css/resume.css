@@ -1,0 +1,131 @@
+header {
+/*    font-family: "Trajan Pro", serif;*/
+    padding-bottom: 10px;
+    width:100%;
+}
+
+header h1 {
+    letter-spacing: 2pt;
+    border-bottom: 1px solid black;
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+header span {
+    font-size: 0.75rem;
+    float: center;
+}
+
+section h2 {
+    /*font-family: "Trajan Pro", serif;*/
+    /*font-size: 14pt;*/
+}
+
+section p {
+    margin-left: 40px;
+}
+
+section a {
+    color: inherit;
+}
+
+section.coverletter {
+    margin-top: 40px;
+}
+
+section.coverletter p {
+    margin-left: 0px;
+}
+
+section ul {
+    list-style-type: disc;
+}
+
+.jobtable {
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+}
+
+.edtable {
+    display: table;
+    width: 100%;
+    margin-left: 20px;
+    padding-bottom: 15px;
+}
+
+.skillstable {
+    display: table;
+    width: 100%;
+    margin-left: 20px;    
+}
+
+.table {
+    display: table;
+    margin-left: 20px;
+}
+
+.headertable {
+    display: table;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.tablerow {
+    display: table-row;
+}
+
+.jobtitle {
+    display: table-cell;
+    font-style: normal;
+    font-size: 1.25rem;    
+    font-weight: bold;
+}
+
+.companyname {
+    display: table-cell;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.info {
+    display: table-cell;
+    font-style: normal;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.right {
+    display: table-cell;
+    text-align: right;
+
+}
+
+.center {
+    display: table-cell;
+    text-align: center;
+}
+
+.left {
+    display: table-cell;
+    text-align: left;
+}
+
+.cell {
+    display: table-cell;
+}
+
+.onlinecell {
+    font-style: italic;
+    padding-right: 10px;
+}
+
+.urlcell {
+    display: table-cell;
+    letter-spacing: 1px;
+}
+
+.pagebreak {
+    page-break-before: always;
+}

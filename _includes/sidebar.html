@@ -1,0 +1,24 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>{{ site.title }}</h1>
+      <img src="{{ site.url }}/public/images/anush_mug_resume.jpg">
+      <p class="lead">{{ site.description }}</p> 
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="{{ site.pdf_download.link }}">Download</a></li>
+    </ul>
+
+  <div>
+    <div class="tablerow">
+      <a class="sidebar-link-item center" href="{{ site.github.link }}">GitHub</a>
+       &nbsp; &bull; &nbsp;
+      <a class="sidebar-link-item center" href="{{ site.linkedin.link }}">LinkedIn</a>
+    </div>
+  </div>
+
+    <p class="footer">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+
+  </div>
+</div>

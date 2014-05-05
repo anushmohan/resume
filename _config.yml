@@ -1,0 +1,28 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Anush Mohan
+tagline:          'Resume'
+description:      'Curriculum Vitae'
+url:              ''
+
+author:
+  name:           'Anush Mohan'
+  url:            
+
+# Custom vars
+version:          1.0.0
+
+github:
+  link:           https://github.com/anushmohan
+
+linkedin:
+  link:           https://linkedin.com/anushmohan  
+
+pdf_download:
+    link:         './Anush_Mohan_resume.pdf'
