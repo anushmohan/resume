@@ -25,4 +25,4 @@ linkedin:
   link:           https://linkedin.com/anushmohan  
 
 pdf_download:
-    link:         '/Anush_Mohan_resume.pdf'
+    link:         './Anush_Mohan_resume.pdf'

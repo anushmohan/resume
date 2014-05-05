@@ -11,7 +11,7 @@ def convertHtmlToPdf(html, pdf_filename,
   if not temp_html_filename:
     m = re.match(r'.*?([^/]+)\.pdf',pdf_filename)
     if m:
-      temp_html_filename= '~' + m.group(1) + '.html'
+      temp_html_filename='~'+ m.group(1) + '.html'
     else:
       temp_html_filename = "./~htmltopdf.html"
 
