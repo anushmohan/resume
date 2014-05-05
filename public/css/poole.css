@@ -54,7 +54,7 @@ html {
 }
 @media (min-width: 38rem) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -237,6 +237,7 @@ tbody tr:nth-child(odd) th {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  border-bottom: 1px solid #aaa;  
 }
 
 
