@@ -44,7 +44,7 @@ section ul {
 .jobtable {
     display: table;
     width: 100%;
-    border-bottom: 1px solid black;
+    /*border-bottom: 1px solid black;*/
     margin-left: 20px;
 }
 
@@ -58,7 +58,7 @@ section ul {
 .skillstable {
     display: table;
     width: 100%;
-    margin-left: 20px;    
+    margin-left: 20px;
 }
 
 .table {
@@ -79,7 +79,7 @@ section ul {
 .jobtitle {
     display: table-cell;
     font-style: normal;
-    font-size: 1.25rem;    
+    font-size: 1.25rem;
     font-weight: bold;
 }
 
